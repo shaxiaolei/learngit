@@ -1,0 +1,12 @@
+git学习笔记
+git add 文件              添加到缓存区
+git commit -m '说明'      提交到分支
+git rm 文件               删除文件
+git status                查看文件的修改状态
+git reflog                查看之前的操作
+git reset --hard HEAD^    回退
+git reset --hard hashiD   回退到提交的分支
+git log                   查看之前提交日志
+git diff HEAD -- 文件     当前与分支的区别
+git checkout -- 文件      撤销工作区的修改
+git reset HEAD 文件       将缓存区的内容放回工作区
